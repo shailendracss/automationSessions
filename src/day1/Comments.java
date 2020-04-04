@@ -49,7 +49,7 @@ public class Comments {
 	/**
 	 * JAVA DOC Comments
 	 * 
-	 * Decision Table
+	 * <h1>Decision Table</h1>
 	 * 
 	 * <table border=1>
 	 * <tr>
