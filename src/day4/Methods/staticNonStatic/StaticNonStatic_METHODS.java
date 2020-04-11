@@ -5,11 +5,11 @@ package day4.Methods.staticNonStatic;
  * 
  * This example explains how the static keyword affects the method calling
  * 
- * static can not call the non static directly
+ * static members can not call the non static members directly
  * 
  * but
  * 
- * non static can call static and non static methods directly
+ * non static members can call static and non static members directly
  * 
  * */
 public class StaticNonStatic_METHODS {

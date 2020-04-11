@@ -129,6 +129,87 @@ void m1(){
 
 
 
+# Method Overloading And Overriding
+
+## overloading >> Same name but different(slightly) functionality, It happens in Same Class, The overloaded methods have different parameters, Java knows method overloading at compile time
+
+	public class MethodOverloadingDemo{
+		
+		public void add(int a, int b){
+			print(a+b);
+		}
+		
+		public void add(int a, int b, int c){
+			print(a+b+c);
+		}
+		
+		public void add(double a, double b){
+			print(a+b);
+		}
+		
+		public void add(double a, double b, double c){
+			print(a+b+c);
+		}
+		
+	}
 
 
+### Practical usage of Method Overloading
+	1. In Selenium API >> frame method is overloaded in Selenium API,we can provide 3 parameters in this frame method 
+		driver.switchTo().frame(param);
+		USAGE
+		- param = WebElement
+		- param = Id of the Frame
+		- param = Name of the Frame
+		
+		
+	2. In Automation Framework >> click, we can call this method in 3 ways
+		com.click(WebElement/By,Desc)
+		com.click(WebElement/By)
+		USAGE
+		- com.click(By.id("val"));
+		- com.click(WebElementObj);
+		- com.click(By.id("val"),"SomeDescAboutTheObj");
+		- com.click(WebElementObj,"SomeDescAboutTheObj");
 
+
+## overriding >> Same name but new method adds new functionality to old method, It happens in Inherited class, The over ridden methods have same parameters, Java knows method overriding at run time
+
+### Rule :- Parent class and child class both should have the mthod which we are overriding
+
+	public class Add_Int{
+		
+		public void add(int a, int b){
+			print(a+b);
+		}
+		
+	}
+
+	public class Add_Double extends Add_Int{
+		
+		// Overriding the parent class method, and adding some advance features in it
+		public void add(int a, int b){
+			print("OUTPUT= "+a+b);
+		}
+
+		public void add(double a, double b){
+			print(a+b);
+		}
+		
+	}
+
+
+### Practical usage of Method Overloading
+
+	1. In Selenium API >> When we create Object of WebDriver, we use the Overriding
+	WebDriver driver = new ChromeDriver()
+	whenever we call any method using the driver object, the methods of ChromeDriver class gets called
+
+	
+	
+	
+# OOPS Features >> 
+	- *Polymorphism*(Same name but different(slightly) functionality)
+	- *Abstraction* (Hiding the implementation from the user)
+	- *Inheritance* (Acquiring the properties of parent class)
+	- *Encapsulation* (Binding the data and methods together, eg. class)
