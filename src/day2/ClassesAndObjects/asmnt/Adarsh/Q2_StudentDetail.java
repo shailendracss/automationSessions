@@ -1,4 +1,4 @@
-package day2.ClassesAndObjects.asmnt;
+package day2.ClassesAndObjects.asmnt.Adarsh;
 
 //Declaration of a class
 public class Q2_StudentDetail {

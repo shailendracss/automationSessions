@@ -2,7 +2,7 @@
 # CLASS
 
 	A class is a *user defined blueprint* or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type. In general, class declarations can include these components, in order:
-
+	
 # *How class is created/ Components of a class* :-
 
 	- Modifiers : A class can be public or has default access (Refer this for details).
@@ -21,17 +21,22 @@
 
 	There are various types of classes that are used in real time applications such as nested classes, anonymous classes, lambda expressions.
 
+
 # OBJECT
 
 	It is a basic unit of Object Oriented Programming and represents the real life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of :
 
 	# State : It is represented by attributes[Ivars] of an object. It also reflects the properties of an object.
-	# Behavior : It is represented by methods[Functions] of an object. It also reflects the response of an object with other objects.
+	# Behavior : It is represented by methods[Functions] of an object. 
 	# Identity : It gives a unique name to an object and enables one object to interact with other objects.
 
 	Example of an object : adarsh,any actual student
 
 ## PSEUDO CODES
+
+pulic class Teacher extends Employee implement Intelligent,Mammel {
+	
+}
 
 // Sample Class
 [public/private/protected/blank] class Student [extends/implements SuperClass/Interface name] {

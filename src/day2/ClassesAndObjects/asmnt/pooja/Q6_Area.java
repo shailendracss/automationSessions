@@ -19,7 +19,7 @@ public class Q6_Area {
 	public static void main(String[] args) {
 
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter the length");
+		System.out.println("Enter the lenght");
 		int a = s.nextInt();
 		System.out.println("Enter the breadth");
 		int b = s.nextInt();
