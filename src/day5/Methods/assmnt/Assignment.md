@@ -27,3 +27,25 @@
 	if all three parameters have value then it should call calcTriangleArea 
 	The value of parameters should be greater than 0, then only it will be considered.
 	
+	7.
+	Print the sum, difference and product of two complex numbers by creating a class named 'Complex' with separate methods for each operation whose real and imaginary parts are entered by user.
+	class Complex
+		- double real
+		- double img
+		- Complex(real,img)
+		- static void add(Complex c1, Complex c2)
+		- static void subs(Complex c1, Complex c2)
+		- static void mult(Complex c1, Complex c2)
+		- void add(Complex c2)
+		- void subs(Complex c2)
+		- void mult(Complex c2)
+	
+	8.
+	Add two distances in inch-feet by creating a class named 'Distance'.(hint: use modular operator % )
+	class Distance
+		- int feet
+		- int inch
+		- Distance(feet,inch)
+		- static void add(Distance c1, Distance c2)
+		- void add(Distance c2)
+	

@@ -18,7 +18,6 @@ public class MethodOverloading {
 		System.out.println("M4 "+a+b+c);
 	}
 	
-	
 	public static void main(String[] args) {
 		
 		// Abstraction >> USER will not know, which method was actually executed to get the result
