@@ -12,6 +12,12 @@ import day2.ClassesAndObjects.asmnt.Adarsh.Q2_StudentDetail;
  */
 public class Q2_Employee {
 
+	/**
+	 * @author Shailendra 27-Apr-2020
+	 * Read the question properly
+	 * 
+	 * */
+
 	//instance Variable
 	private String name;
 	private int salory;

@@ -6,6 +6,13 @@ package day5.Method.asmnt.Adarsh;
  */
 public class Q3_MyStaticMethod {
 
+
+	/**
+	 * @author Shailendra 27-Apr-2020
+	 * Read the question properly
+	 * 
+	 * */
+	
 	public static void main(String[] args) {
 		String x = new String("Adarsh");
 

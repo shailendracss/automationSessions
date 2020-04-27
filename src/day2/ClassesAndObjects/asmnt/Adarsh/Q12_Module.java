@@ -15,6 +15,13 @@ import java.util.Scanner;
 
 public class Q12_Module {
 	
+
+	/**
+	 * @author Shailendra 27-Apr-2020
+	 * Logic is correct but this was not asked in the question
+	 * 
+	 * */
+	
 	//create a method.
     public static void main(String[] args)
     {

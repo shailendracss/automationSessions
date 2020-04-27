@@ -6,6 +6,13 @@ package day2.ClassesAndObjects.asmnt.Adarsh;
  */
 public class Q14_PrintAmericaFlag {
 
+
+	/**
+	 * @author Shailendra 27-Apr-2020
+	 * Flag alignment is not proper
+	 * 
+	 * */
+	
 	public static void main(String[] args) {
 		System.out.println("* * * * * * ==================================");
 		System.out.println(" * * * * * ==================================");

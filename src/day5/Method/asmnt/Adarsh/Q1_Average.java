@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Q1_Average {
 
+	
+	/**
+	 * @author Shailendra 27-Apr-2020
+	 * Read the question properly
+	 * 
+	 * */
 
 	//Create a Method
 		 public static void main(String[] args)
@@ -23,6 +29,8 @@ public class Q1_Average {
 		    {
 		        return (a + b + c) / 3;
 		    }
+		  
+		  
 		}
 	
 	
