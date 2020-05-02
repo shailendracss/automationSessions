@@ -1,7 +1,5 @@
 package day5.Method.asmnt.Adarsh;
 
-import day2.ClassesAndObjects.asmnt.Adarsh.Q2_StudentDetail;
-
 /***
  * Create a class Employee to hold Employee details like name, salary, address
  * and company_name(static). Create 5 objects of the Employee class and print
@@ -26,7 +24,7 @@ public class Q2_Employee {
 	
 	
 	//Constructor declaration of a class
-		private Q2_Employee (String name, int salory, String address,String company_name)
+		public Q2_Employee (String name, int salory, String address,String company_name)
 		{
 			this.name= name;
 			this.salory=salory;

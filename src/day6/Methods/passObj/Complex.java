@@ -1,4 +1,4 @@
-package day6.Methods.returnPassObj;
+package day6.Methods.passObj;
 
 public class Complex {
 	private double real;

@@ -3,19 +3,19 @@ package day5.Methods.overloading;
 public class MethodOverloading {
 
 	public void add(int a, int b){
-		System.out.println("M1 "+a+b);
+		System.out.println("M1 "+(a+b));
 	}
 	
 	public void add(int a, int b, int c){
-		System.out.println("M2 "+a+b+c);
+		System.out.println("M2 "+(a+b+c));
 	}
 	
 	public void add(double a, double b){
-		System.out.println("M3 "+a+b);
+		System.out.println("M3 "+(a+b));
 	}
 	
 	public void add(double a, double b, double c){
-		System.out.println("M4 "+a+b+c);
+		System.out.println("M4 "+(a+b+c));
 	}
 	
 	public static void main(String[] args) {
