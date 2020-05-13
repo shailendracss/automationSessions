@@ -1,11 +1,11 @@
 package java_Tutorial;
 
-public class Rectangle {
+public class Ex13_Rectangle {
 
-	float lenght;
-	float width;
+	private float lenght;
+	private float width;
 
-	public Rectangle(float lenght, float width) {
+	public Ex13_Rectangle(float lenght, float width) {
 		this.lenght = lenght;
 		this.width = width;
 	}

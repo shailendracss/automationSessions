@@ -1,11 +1,11 @@
 package java_Tutorial;
 
-public class Date {
-	int Day;
-	int Month;
-	int Year;
+public class Ex17_Date {
+	private int Day;
+	private int Month;
+	private int Year;
 	
-	public Date(int Day, int Month , int Year ) {
+	public Ex17_Date(int Day, int Month , int Year ) {
 		// TODO Auto-generated constructor stub
 	}
 	
