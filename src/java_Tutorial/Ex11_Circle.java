@@ -1,5 +1,4 @@
 package java_Tutorial;
-import sun.applet.Main;
 
 /**
  * The Circle class models a circle with a radius and color.
@@ -30,9 +29,8 @@ public class Ex11_Circle { // Save as "Circle.java"
 	/** Returns the area of this Circle instance */
 	public double getArea() {
 		return radius * radius * Math.PI;
-		
-		
 	}
+
 	public static void main(String[] args) {
 		Ex11_Circle r= new Ex11_Circle(2.0);
 		r.getRadius();
