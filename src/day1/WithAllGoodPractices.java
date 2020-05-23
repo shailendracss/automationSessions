@@ -8,6 +8,8 @@ public class WithAllGoodPractices {
 	// This is the main, method which will be executed first
 	public static void main(String[] args) {
 		
+		int i =10;
+		
 		// calling ageLogic method
 		ageLogic(0);
 		ageLogic(18);
