@@ -1,6 +1,6 @@
 package java_Tutorial;
 
-public class Ex13_Rectangle {
+public class Ex13_Rectangle extends Shape {
 
 	private float lenght;
 	private float width;
@@ -20,9 +20,8 @@ public class Ex13_Rectangle {
 
 	}
 	
-	public void Area() {
-		// TODO Auto-generated method stub
-
+	public double getArea() {
+		return lenght * width;
 	}
 	
 	public void getPerimeter() {

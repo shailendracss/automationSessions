@@ -9,7 +9,7 @@ public class SimpleIfExample {
 		int x = 13;
 		int y = 12;
 
-		if (true) { //false
+		if (x>y) { //false
 			// Whatever lines you will write in this {} block will only execute, when above
 			// if is getting a true value
 

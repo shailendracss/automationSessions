@@ -1,9 +1,14 @@
-User will give us two numbers => 
+# Decision Making in Java (if, if-else, switch, break, continue, jump)
 
-we have to find out which one is larger
+### SOURCE : https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/
 
+	if()
+	else if()
+	switch()
 
-
+ Some examples: 
+ 
+	1. User will give us two numbers,we have to find out which one is larger
 
 	if(*CONDITION* WHICH SHOULD RESULT A BOOLEAN(true/false) VALUE){
 	
@@ -125,7 +130,7 @@ we have to find out which one is larger
 		return bool;
 	}
 	
-3. Logical Operators (&& - AND, || - OR, ! - NOT)
+3. Logical Operators [&&(AND), ||(OR), !(NOT)]
 
 	Example : 
 	Requirement>>
@@ -216,3 +221,142 @@ we have to find out which one is larger
 		}
 		
 	}
+
+	
+	
+## Understanding the if and if-else
+	
+### Normal If:-
+	If(CONDITION){
+		// BODY
+	}
+	
+	
+	First Way
+	if(age>18){
+		print("age is more than 18");
+		// It can have multiple statements inside if
+	}
+	
+	Second Way
+	if(age>18)
+		print("age is more than 18"); // It can have single statement inside if
+	
+	
+### Nested If:-
+	
+	Note :- Nesting creates maintenance problems, try to avoid too much nesting, upto 3 level is fine.
+	
+	/*
+	if(age<18 && gender){ // FOR MALE
+		print("FOR MALE = COFFEE + TOAST");
+	*/
+	
+	if(age<18){ // level 1
+		if(gender){ // level 2
+			print("MALE LESS THAN 18 = Free Coffee and Free Toast");
+		}
+	}
+	
+	
+	
+### if else ladder
+	One example where if else ladder can be applied, is when user has to choose one thing aamong many options.
+	
+	When our test cases are executing, we can decide a browser
+	
+	String browser = "CHROME"; //FF, IE 
+	
+	WebDriver driver = new ChromeDriver(); // Open chrome browser
+	WebDriver driver = new FirefoxDriver(); // Open Firefox browser
+	WebDriver driver = new InternetExplorerDriver(); // Open IE browser
+
+	SYNTAX:-
+	if(CONDITION1){
+		// STATEMENTS
+	} else if(CONDITION2){
+		// STATEMENTS
+	} else if(CONDITION3){
+		// STATEMENTS
+	} else if(CONDITION4){
+		// STATEMENTS
+	} else if(CONDITION5){
+		// STATEMENTS
+	} else {
+		// STATEMENT, which will execute when all coditions fails
+	}
+	
+	Pseudo Code:
+		
+	String browser = "CHROME";
+	
+	if(browser.equals("CHROME")){
+		WebDriver driver = new ChromeDriver(); // Open chrome browser
+	}else if(browser.equals("FF")){
+		 WebDriver driver = new FirefoxDriver(); // Open Firefox browser
+	}else if(browser.equals("IE")){
+		 WebDriver driver = new InternetExplorerDriver(); // Open IE browser
+	} else {
+		print("Incorrect browser is provided, running the tests on chrome browser");
+		 WebDriver driver = new ChromeDriver(); // Open chrome browser	
+	}	
+	
+	driver.get("desired url") // COMPILE TIME ERROR, driver variable/object not defined
+	
+	// SOLUTION : is to declare the variable outside the conditional statements 
+	
+	
+### Switch Case
+	
+	Pro: It is more readable, and executes faster than If Else ladder
+	Cons: It matches Single condition only,  It always check for equality.
+	
+	Syntax:
+	
+	switch(KEY) { // key could be String, int, boolean 
+	
+		case  value1 :
+			// Statements
+		break;
+		
+		case  value2 :
+			// Statements
+		break;
+		
+		case  value3 :
+			// Statements
+		break;
+		
+		default : 
+		 	// statements
+	}
+	
+	Pseudo Code:
+	
+	String browser = "CHROME"; // FF, IE
+	
+	WebDriver driver = null;
+	
+	switch(browser) {
+		
+		case "CHROME" : 
+			driver = new ChromeDriver();
+		break;
+		
+		case "FF" : 
+			driver = new FirefoxDriver();
+		break;
+		
+		case "IE" : 
+			driver = new InternetExplorerDriver();
+		break;
+	
+		default :
+			print("Incorrect browser is provided, running the tests on chrome browser");
+		 	driver = new ChromeDriver(); // Open chrome browser
+	}
+	
+	driver.get("desired URL");
+	
+
+### Jump Statements (continue, break, return)	
