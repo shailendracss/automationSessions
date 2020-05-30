@@ -309,7 +309,7 @@
 ### Switch Case
 	
 	Pro: It is more readable, and executes faster than If Else ladder
-	Cons: It matches Single condition only,  It always check for equality.
+	Cons: It matches Single condition only,  It always check for equality. you can not apply logical operators(&&, ||, !)
 	
 	Syntax:
 	
@@ -331,7 +331,7 @@
 		 	// statements
 	}
 	
-	Pseudo Code:
+	*Pseudo Code*:
 	
 	String browser = "CHROME"; // FF, IE
 	
@@ -360,3 +360,9 @@
 	
 
 ### Jump Statements (continue, break, return)	
+
+	1. break : STOPS the execution of further ITERATION. It send the control to the END of the LOOP BODY
+	2. continue : SKIPS the execution of some ITERATION. It send the control to the TOP of the LOOP BODY
+	3. return : STOPS the execution of further LINE OF CODES, and sends the control to the TOP of the METHOD, and it can also return some value
+
+	See the picture for better understanding.
